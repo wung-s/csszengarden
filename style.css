@@ -1,0 +1,193 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 1px 0px 0px 0px ;
+}
+
+header {
+	background-color: #666;
+  border-radius: 5px;
+  padding: 15px 15px;
+  color: white;
+}
+
+h1, h2 {
+	margin: 0px;
+}
+.sidebar { 
+	color: white;
+  float: right;
+  width: 200px;
+  padding-left: 2px;
+  position: absolute;
+  top: 146px;
+  left: 500px;
+}
+/*.sidebar {
+	float: right;
+	width: 200px;
+	padding-left: 2px; 
+	height: 100%;
+}
+*/
+.sidebar a {
+	text-decoration: none;
+	color: white;
+}
+.page-wrapper {
+	width: 700px;
+	max-width: 700px; 
+	margin: 0 auto;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif; 
+	/*overflow-x: hidden;*/
+	position: relative;
+}
+.page-wrapper:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#zen-supporting {
+	color: #666;
+}
+
+.summary{
+	/*border: 1px solid;*/
+	/*overflow: auto;*/
+	margin-top: 1px;
+	font-size: 11px;
+}
+
+.summary p {
+ color: white;
+}
+
+
+.summary p:first-child {
+	background-color: #c3bfbf;
+  width: 400px;
+  float: right;
+  margin: 0;
+  height: 75px;
+  padding: 15px 50px;
+  border-radius: 5px
+ }
+ .summary p:last-child {
+ 	margin: 0;
+ 	width: 298px;
+ 	border-radius: 5px;
+ 	background-color: #FD9453;
+ 	height: 75px;
+ 	padding: 28px;
+ }
+
+.preamble {
+	border-radius: 5px;
+  background-color: #CCC;
+  margin-top: 2px;
+  padding: 5px 20px;
+  width: 500px;
+  color: #666;
+}
+
+div h3 {
+	text-transform: lowercase;
+	color: #666;
+	font-weight: 300;
+}
+
+.main {
+	width: 500px;
+	/*border: 1px solid;*/
+	float: left;
+}
+
+.main>div {
+	border-radius: 5px;
+  background-color: #CCC;
+  margin-top: 2px;
+  padding: 5px 20px;
+  /*width: 500px;	*/
+}
+
+/*.sidebar {
+	float: right;
+	width: 200px;
+	padding-left: 2px; 
+	height: 100%;
+}*/
+
+.wrapper {
+	/*height: 880px;*/
+	/*position: absolute;*/
+  /*top: -190px;*/
+}
+
+.wrapper>div {
+	background-color: #FD9453;
+	border-radius: 5px;
+
+}
+
+.wrapper>div:last-child {
+	height: 810px;
+	/*height: 100%;*/
+}
+
+nav ul {
+	margin: 0px;
+	padding-left: 20px;
+}
+
+nav ul li {
+	list-style-type: none; 
+}
+
+h3 {
+	margin-bottom: 0px; 
+}
+
+.wrapper h3{
+	margin-top: 1px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  color: white;
+}
+
+.wrapper li:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+footer {
+	background-color: #FD9453;
+	border-radius: 5px; 
+	margin-top: 2px; 
+	padding: 4px 20px;
+}
+
+footer a {
+	text-decoration: none; 
+	color: white;
+}
+
+
+
+}
+
+.zen-resources ul {
+	margin-top: 0px;
+}
+
+/*.sidebar h3 {
+	color: white;
+}
+*/
